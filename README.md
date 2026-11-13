@@ -24,10 +24,10 @@
 
 ---
 
-### 🐍 Meu gráfico de contribuições
+### 🐍 Meus projetos
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IamViniciusLima05/IamViniciusLima05/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IamViniciusLima05/IamViniciusLima05/output/github-snake.svg" />
-  <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/IamViniciusLima05/IamViniciusLima05/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IamViniciusLima05/IamViniciusLima05/output/projects-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IamViniciusLima05/IamViniciusLima05/output/projects-snake.svg" />
+  <img alt="Cobrinha comendo meus projetos" src="https://raw.githubusercontent.com/IamViniciusLima05/IamViniciusLima05/output/projects-snake.svg" />
 </picture>
