@@ -1,13 +1,9 @@
-# Gera a animação da cobrinha comendo o gráfico de contribuições
-name: Gerar cobrinha
+name: Cobrinha dos projetos
 
 on:
-  # roda sozinho todo dia à meia-noite (UTC)
   schedule:
-    - cron: "0 0 * * *"
-  # permite rodar na mão pela aba Actions
+    - cron: "0 */6 * * *"
   workflow_dispatch:
-  # roda também sempre que você atualizar o repositório
   push:
     branches:
       - main
@@ -20,15 +16,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Gerar a cobrinha (versões clara e escura)
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+      - uses: actions/checkout@v4
 
-      - name: Publicar as imagens no branch "output"
+      - name: Gera a cobrinha com os projetos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/projects_snake.py ${{ github.repository_owner }} dist
+
+      - name: Publica na branch output
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
