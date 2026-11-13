@@ -8,7 +8,6 @@
 - 💻 Trabalho com tecnologia desde 2019, do suporte técnico ao desenvolvimento web
 - 🌎 Há mais de 4 anos numa multinacional de software, atendendo usuários em português e inglês
 - 🎓 Estudante de Análise e Desenvolvimento de Sistemas na Unisinos
-- 🤖 Certificado em IA Generativa pela SAP
 - 🛠️ Hoje crio sites modernos, rápidos e responsivos para pequenas e médias empresas
 
 ### 🧰 Tecnologias
@@ -21,8 +20,7 @@
 
 ### 📫 Vamos conversar?
 
-- WhatsApp: (51) 99327-1974
-- E-mail: contatovinicius.me@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciuslima25/)
 
 ---
 
